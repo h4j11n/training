@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>wheel_leg_controller</name>
+  <version>0.0.0</version>
+  <description>轮腿机器人 ROS 2 控制器（状态订阅与执行器力矩发布）</description>
+  <maintainer email="rm@example.com">RM Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- ROS 2 节点与消息依赖。 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rm_msgs</exec_depend>
+
+  <!-- 第三方 Python 库使用 rosdep 键；setup.py 中使用 Python 发行包名。 -->
+  <exec_depend>python3-numpy</exec_depend>
+  <!-- 当前主程序仍直接 import mujoco；移除此导入后可一并移除此依赖。 -->
+  <exec_depend>python3-mujoco-pip</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

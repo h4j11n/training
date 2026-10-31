@@ -1,0 +1,46 @@
+{
+    "ROS2.distro": "humble",
+    "cmake.sourceDirectory": "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs",
+    "python.autoComplete.extraPaths": [
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/wheel_leg_sim",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/wheel_leg_sim/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/wheel_leg_bridge",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/wheel_leg_bridge/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/rm_tf_demo",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_tf_demo/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/rm_gimbal_demo",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_gimbal_demo/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_msgs/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/my_first_pkg",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/wheel_leg_sim",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/wheel_leg_sim/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/wheel_leg_bridge",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/wheel_leg_bridge/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/rm_tf_demo",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_tf_demo/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/rm_gimbal_demo",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_gimbal_demo/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/rm_msgs/lib/python3.10/site-packages",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/build/my_first_pkg",
+        "/home/h44/vemon_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/install/**": true,
+        "**/log/**": true,
+        "**/.vscode/browse.vc.db*": true
+    },
+    "search.exclude": {
+        "**/build/**": true,
+        "**/install/**": true,
+        "**/log/**": true,
+        "**/.vscode/browse.vc.db*": true
+    }
+}
