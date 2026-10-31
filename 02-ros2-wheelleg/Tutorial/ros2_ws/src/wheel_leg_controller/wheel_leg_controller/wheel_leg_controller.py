@@ -133,7 +133,6 @@ class WheelLegController(Node):
     def deal_imu(self, msg):
         self.imu_receiver=msg
         self.try_control()
-        # self._cache_state(self._imu_buffer, msg)
 
     def deal_joint(self, msg):
         self.joint_receiver=msg
